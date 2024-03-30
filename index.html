@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flexbox</title>
-    <link rel="stylesheet" href="layout.css">
-</head>
-<body>
+    <link rel="stylesheet" href="layout.css" />
+  </head>
+  <body>
     <div class="wrapper">
+      <header class="header">Tämä laatikko on header</header>
+      <nav>
+        <ul class="menu">
+          <li>Eka</li>
+          <li>Toka</li>
+          <li>Kolmas</li>
+          <li>Neljäs</li>
+          <li>Viides</li>
+          <li>Kuudes</li>
+        </ul>
+      </nav>
 
-    <header class="header">Tämä laatikko on header</header>
+      <article class="main">
+        <div>
+          <p>Tämä laatikko on Main</p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
+            alias quaerat earum?
+          </p>
+        </div>
+        <ul class="somevalikko">
+          <li class="facebook">
+            <img src="images/square-facebook.svg" alt="Facebook" />
+          </li>
+          <li class="twitter">
+            <img src="images/twitter.svg" alt="Twitter" />
+          </li>
+          <li class="email">
+            <img src="images/envelope-regular.svg" alt="Email" />
+          </li>
+        </ul>
+      </article>
 
-    <article class="main">
-        <p>Tämä laatikko on Main</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore alias quaerat earum?</p>
-    </article>
+      <aside class="aside-1">Tämä laatikko on aside 1</aside>
+      <aside class="aside-2">Tämä laatikko on aside 2</aside>
 
-    <aside class="aside-1">Tämä laatikko on aside 1</aside>
-    <aside class="aside-2">Tämä laatikko on aside 2</aside>
-
-    <footer class="footer">Tämä laatikko on footer</footer>
-    
+      <footer class="footer">Tämä laatikko on footer</footer>
     </div>
-</body>
+  </body>
 </html>
